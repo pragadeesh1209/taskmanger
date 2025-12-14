@@ -6,7 +6,7 @@ import './index.css';
 
 
 export default function App() {
-  const [page, setPage] = useState("signup"); // signup | login | dashboard
+  const [page, setPage] = useState("signup"); 
 
   return (
     <div>
