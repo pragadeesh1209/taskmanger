@@ -32,7 +32,7 @@ export default function Dashboard({ setUser }) {
         {
           ...form,
           id: Date.now(),
-          date: new Date().toLocaleDateString(), // ✅ DATE ADDED
+          date: new Date().toLocaleDateString(), // 
         },
       ]);
     }
@@ -115,7 +115,7 @@ export default function Dashboard({ setUser }) {
                   <h3 className="font-bold">{task.title}</h3>
                   <p className="text-sm text-gray-600">{task.description}</p>
 
-                  {/* ✅ DATE DISPLAY */}
+                  {/* DATE DISPLAY */}
                   <p className="text-xs text-gray-500 mt-1">
                     Created: {task.date}
                   </p>
